@@ -1,0 +1,23 @@
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-plugin-24hour-setting"
+        version="0.0.1">
+  <name>TwentyFourHourSetting</name>
+  <description>24 Hour Setting</description>
+  <license>Apache 2.0</license>
+  <keywords>cordova,24hour,twenty,four,hour,military,time</keywords>
+
+  <js-module src="www/twenty-four-hour-setting.js" name="TwentyFourHourSetting">
+    <clobbers target="cordova.plugins.twentyFourHourSetting" />
+  </js-module>
+
+  <platform name="ios">
+    <config-file target="config.xml" parent="/*">
+      <feature name="TwentyFourHourSetting">
+        <param name="ios-package" value="CDVTwentyFourHourSetting"/>
+      </feature>
+    </config-file>
+    <header-file src="src/ios/CDVTwentyFourHourSetting.h" />
+    <source-file src="src/ios/CDVTwentyFourHourSetting.m" />
+  </platform>
+</plugin>
