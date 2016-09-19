@@ -1,6 +1,6 @@
 /********* Echo.h Cordova Plugin Header *******/
 
-#import <Cordova/CDV.h>
+#import <Cordova/CDVPlugin.h>
 
 @interface CDVTwentyFourHourSetting : CDVPlugin
 

@@ -1,4 +1,4 @@
-#import "CDV24Hour.h"
+#import "CDVTwentyFourHourSetting.h"
 #import <Cordova/CDV.h>
 
 @implementation CDVTwentyFourHourSetting
