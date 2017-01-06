@@ -1,7 +1,7 @@
 # 24 Hour Setting Plugin
 
 
-This will get the value of the `24-Hour Time` iOS device setting
+This plugin will determine whether your device system time is in 24-hour format
 
 - For use with PhoneGap / Cordova
 - Supports iOS and Android platforms
