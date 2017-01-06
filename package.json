@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-24hour-setting",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Cordova plugin to check whether your iOS or Android device system time is in 24-hour format",
   "repository": {
     "type": "git",
