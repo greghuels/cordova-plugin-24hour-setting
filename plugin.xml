@@ -11,6 +11,15 @@
     <clobbers target="cordova.plugins.twentyFourHourSetting" />
   </js-module>
 
+  <platform name="android">
+    <config-file target="config.xml" parent="/*">
+      <feature name="TwentyFourHourSetting">
+        <param name="android-package" value="com.greghuels.TwentyFourHourSetting"/>
+      </feature>
+    </config-file>
+    <source-file src="src/android/TwentyFourHourSetting.java" target-dir="src/com/greghuels" />
+  </platform>
+
   <platform name="ios">
     <config-file target="config.xml" parent="/*">
       <feature name="TwentyFourHourSetting">
