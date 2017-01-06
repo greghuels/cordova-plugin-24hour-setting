@@ -4,7 +4,7 @@
 This will get the value of the `24-Hour Time` iOS device setting
 
 - For use with PhoneGap / Cordova
-- Currently only iOS is supported
+- Supports iOS and Android platforms
 
 ## Installation
 
