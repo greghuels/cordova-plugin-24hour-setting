@@ -8,7 +8,7 @@ This will get the value of the `24-Hour Time` iOS device setting
 
 ## Installation
 
-`cordova plugin add https://github.com/greghuels/cordova-plugin-24hour-setting.git`
+`cordova plugin add cordova-plugin-24hour-setting`
 
 ## Usage
 
